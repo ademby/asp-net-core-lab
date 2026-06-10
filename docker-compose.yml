@@ -34,6 +34,7 @@ services:
       ConnectionStrings__DefaultConnection: Host=gowheels_postgres;Port=5432;Database=gowheels;Username=postgres;Password=postgres
       MongoSettings__ConnectionString: mongodb://gowheels_admin:gowheels_admin_pass@gowheels_mongo:27017/?authSource=admin
       MongoSettings__DatabaseName: gowheels_mirror
+      # Provide your OpenRouter API key here or via an environment variable
       OpenRouter__ApiKey: ${OPENROUTER_API_KEY}
       DatabaseSettings__RemakeDatabase: "false"
       DatabaseSettings__UseAltSeeder: "false"
