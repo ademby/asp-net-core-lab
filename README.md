@@ -12,7 +12,7 @@ A full-stack vehicle marketplace platform built with ASP.NET Core (.NET 8), Post
 ## Installation
 
 1.  **Ensure Docker and Docker Compose are installed.**
-2.  **Create environment files:**
+2.  **Create environment file:**
     *   Copy `.env.example` to `.env`.
     *   Add your `OPENROUTER_API_KEY` to the `.env` file.
     ```bash
@@ -50,12 +50,3 @@ A full-stack vehicle marketplace platform built with ASP.NET Core (.NET 8), Post
 | Admin  | `admin@gowheels.local`    | `Password123!` |
 | Expert | `expert@gowheels.local`   | `Password123!` |
 | User   | `user@gowheels.local`     | `Password123!` |
-
-## Management
-
-```bash
-# Stop the supporting services (Databases)
-docker compose down
-# Stop the supporting services and drop data volumes (Databases)
-docker compose down -v
-```
